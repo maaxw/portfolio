@@ -150,8 +150,7 @@ export const footerData = {
 export const pclData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    info: 'XXXXXXXXXXXX TEST',
+    img: 'pcl-homepage.png',
   },
 ];
 

@@ -15,6 +15,7 @@ import { PortfolioProvider } from '../../context/context';
 import { headerData, footerData } from '../../mock/data';
 
 function pearsonCollegeLondon() {
+
   const [footer, setFooter] = useState({});
   const [header, setHeader] = useState({});
 
@@ -47,12 +48,13 @@ function pearsonCollegeLondon() {
 </div>
 <div className="pp-img-section">
 <div className="pp-img-container">
-  <StaticImage
-      src="../../images/pcl/pcl-homepage.png"
+<StaticImage
+      src="../../images/pcl-homepage.png"
       alt="Pearson College London website"
       placeholder="blurred"
       width={1920}
     />
+
 </div>
 </div>
 <div className="pp-info-wrapper">
