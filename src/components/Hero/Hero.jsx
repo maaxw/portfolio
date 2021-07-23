@@ -33,20 +33,17 @@ const Header = () => {
                 Hi, I&apos;m {title}
                 <span className="text-color-main"> {name}</span>, Front End Developer and cat dad.
               </h3>
-              <h3 className="hero-subtitle">{subtitle}<a href="https://pearsoncollegelondon.ac.uk" className="pcl-link">{subtitle2}</a>{subtitle3}</h3>
+              <h3 className="hero-subtitle">{subtitle}{subtitle2}{subtitle3}</h3>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
                 <p className="hero-cta">
                   <span className="cta-btn cta-btn--hero">
-                    <Link to="projects" smooth duration={1000}>
+                    <Link to="about" smooth duration={1000}>
                       {cta || 'View more'}
                     </Link>
                   </span>
                 </p>
               </Fade>
             </Fade>
-          </div>
-          <div className="hero-image">
-            <HeroImg alt={title} filename={img} />
           </div>
         </div>
       </Container>

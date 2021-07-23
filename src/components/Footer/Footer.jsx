@@ -28,6 +28,12 @@ const Footer = () => {
                   </a>
                 );
               })}
+              <a href="mailto:maxcwhitmore@gmail.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <i className={`fa fa-envelope`} />
+                  </a>
           </div>
           <p className="footer__text">Created by{' '}
             <a href="https://github.com/max-whitmore" target="_blank" rel="noopener noreferrer">

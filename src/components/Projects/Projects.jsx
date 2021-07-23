@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Web development" />
+          <Title title="Web Development" />
           <p className="projects-title-intro">I have industry experience working as a Front End Developer; here are some of the web development projects I have worked on.</p>
           {projects.map((project) => {
             const {

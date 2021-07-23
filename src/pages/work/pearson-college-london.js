@@ -41,7 +41,8 @@ function pearsonCollegeLondon() {
 <div className="pp-wrapper">
 <div className="pp-content">
   <h1 className="pp-title">Pearson College London</h1>
-  <p className="pp-description"> Pearson College London is a private academic degree provider based in London owned by Pearson plc. It was founded in 2012, and is the only FTSE 100 company in the UK to design and deliver degrees. I was tasked with rebuilding the website in to something more <strong>modern and accessible</strong>. Working closely with the graphic designer I was provided with UI/UX mockups using wire framing to ensure the end result will fulfill all expectations. Developing the <strong>frontend</strong>, as well as configuring AEM (CMS) templates and adjustable styling options in the CMS in order to allow content authors to make custom changes to the website that are <strong>seamless</strong>. In addition, optimising SEO and implementing the ability to sell courses via a <strong>shopify integration</strong></p>
+  <p className="pp-description">Pearson College London is a private academic degree provider, based in London, owned by Pearson plc. </p>
+  <p className="pp-description">Working with the graphic designer, I have rebuilt the website into something more <strong>modern and accessible</strong>. I have configured the AEM templates and provided styling options in the CMS to allow content authors to style the website. I have also optimised SEO and implemented the ability to sell courses via a <strong>shopify integration</strong>.</p>
 </div>
 </div>
 <div className="pp-img-section">

@@ -1,5 +1,5 @@
 #projects {
-  background-color: $light-grey;
+  background-color: $white;
   color: $dark-grey;
   padding-bottom: 5%;
 
@@ -99,7 +99,7 @@
 .github-btn,
 .link-btn,
 .projectinfo-btn {
-  background-color: $white;
+  background-color: $light-grey;
   padding: .5rem 1rem;
   color: $black;
   border-radius: 1rem;
@@ -167,7 +167,8 @@
   display: flex;
   justify-content: center;
   margin: 0 8rem;
-  min-height: 50vh;
+  min-height: 30vh;
+  padding-top: 8rem;
   @include respond(tab-land) {
     margin: 0 2rem;
     padding-top: 7rem;
@@ -182,6 +183,7 @@
 
 .pp-title {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .pp-description {
@@ -197,7 +199,7 @@
 }
 
 .pp-img-section {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .pp-img-container {
@@ -215,6 +217,7 @@
 .pp-info-wrapper {
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .pp-info-container {

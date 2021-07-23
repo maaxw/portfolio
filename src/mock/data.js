@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Max Whitmore',
-  subtitle: 'I am currently working at ',
+  subtitle: 'I\'m currently working at ',
   subtitle2: 'Pearson College London',
   subtitle3: ' to improve and modernise their website.',
   cta: 'View more',
@@ -20,12 +20,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: '',
+  img: 'hero-image-small.png',
   paragraphOne:
-    '',
-  paragraphTwo: ' ',
-  paragraphThree:
-    '',
+    'Hi, I\'m Max Whitmore, a passionate Front End Developer and cat dad. I live in Kent and I\'m currently building the website for Pearson College London using Adobe Experience Manager CMS.',
+  paragraphTwo: 'Aside from coding, I enjoy playing football for a local team, drinking beer and cooking.',
+  paragraphThree: 'Check out some of my work and feel free to email me if you\'d like to work together.',
 };
 
 // PROJECTS DATA
@@ -35,7 +34,7 @@ export const projectsData = [
     img: 'pcl-homepage.png',
     title: 'Pearson College London',
     dates: '2019 - present',
-    info: 'Overhaul of the Pearson College London website and Adobe Experience Manager CMS system, to provide a responsive and accessible website to inform users about Pearson College London.',
+    info: 'I have worked on rebuilding the Pearson College London website, and reconfiguring the Adobe Experience Manager CMS system, to provide a responsive and accessible experience for users.',
     info2: 'HTML // CSS // LESS // JavaScript // Adobe Experience Manager',
     projectinfo: '/work/pearson-college-london',
     url: 'https://www.pearsoncollegelondon.ac.uk/',
@@ -48,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'portfolio.png',
-    title: 'My portfolio',
+    title: 'My Portfolio',
     dates: '',
     info: 'A simple personal portfolio to showcase projects and development work.',
     subheading: 'Goal',
@@ -63,9 +62,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'brewdog-app.PNG',
-    title: 'Brewdog beer generator',
+    title: 'Brewdog Beer Generator',
     dates: '',
-    info: 'A site built to work with the focus() JavaScript method, as well as handling JSON files in API get requests. This project allowed me to fetch data from the public Punk Beer API and display it in a friendly way',
+    info: 'A site built to work with the focus JavaScript method, as well as handling JSON files in API get requests. This project allowed me to fetch data from the public Punk Beer API and display it in a friendly way.',
     subheading: 'Goal',
     subheading2: 'Technology',
     info2: 'HTML // CSS // JavaScript // brewdog punk api',
@@ -78,9 +77,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'password-generator-app.png',
-    title: 'Password generator',
+    title: 'Password Generator',
     dates: '',
-    info: 'Small password generator with a simple copy button.',
+    info: 'Small password generator with a simple copy button, built to teach myself how to use Math.floor, for loops, createRange, as well as accesing the DOM in JavaScript.',
     subheading: 'Goal',
     subheading2: 'Technology',
     info2: 'HTML // CSS // JavaScript',
@@ -95,7 +94,7 @@ export const projectsData = [
     img: 'url-shortener-app.png',
     title: 'URL Shortener',
     dates: '',
-    info: 'A very leightweight URL shortener that takes any https link and creates a short URL with it, made using a Short ID library.',
+    info: 'A very leightweight URL shortener that takes any https link and creates a short URL with it. Made using a Short ID library.',
     subheading: 'Goal',
     subheading2: 'Technology',
     info2: 'HTML // CSS //  JavaScript // Bootstrap // EJS // MongoDB // Express',
