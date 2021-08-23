@@ -88,7 +88,7 @@ export const projectsData = [
     link: 'link',
     github: 'github',
     repo: 'https://github.com/max-whitmore/PasswordGenerator', // if no repo, the button will not show up
-  },
+  },/*
   {
     id: nanoid(),
     img: 'url-shortener-app.png',
@@ -103,7 +103,7 @@ export const projectsData = [
     link: 'link',
     github: 'github',
     repo: 'https://github.com/max-whitmore/shorturl', // if no repo, the button will not show up
-  },
+  },*/
 ];
 
 // CONTACT DATA
